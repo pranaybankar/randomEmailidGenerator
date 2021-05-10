@@ -25,7 +25,7 @@ Method 2:
 test.py
 	import reidg
 	list_of_num = reidg.convert_to_list(99999)
-	email_provider = "@yopmail.com"
+	email_provider = "yopmail.com"
 	reidg.random_char(list_of_num, email_provider)
 
 > python test.py
