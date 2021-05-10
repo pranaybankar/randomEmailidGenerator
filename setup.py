@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 classifiers = [
   'Development Status :: 5 - Production/Stable',
   'Intended Audience :: Education',
-  'Operating System :: Linux :: Windows :: Windows 10',
+  'Operating System :: Linux :: Ubuntu :: Ubuntu 16.04.7 LTS',
   'License :: OSI Approved :: MIT License',
   'Programming Language :: Python :: 3'
 ]
