@@ -35,7 +35,7 @@ def convert_to_list(number):
 def random_char(num_list, email_provider):
     try:
         for num in num_list:
-            print(''.join(random.choice(string.ascii_letters) for x in range(num)) +email_provider)
+            print(''.join(random.choice(string.ascii_letters) for x in range(num)) + "@" + email_provider)
     except Exception as e:
         print(e)
 
